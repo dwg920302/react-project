@@ -1,8 +1,3 @@
-import React from 'react'
-import './Login.css'
-
-const Login = () => {
-    return (<>
     <form action="/action_page.php" method="post">
     <div className="imgcontainer">
     <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" class="avatar"/>
@@ -23,10 +18,6 @@ const Login = () => {
 
     <div className="container" style={{backgroundColor:"#f1f1f1"}}>
     <button type="button" class="cancelbtn">Cancel</button>
-    <span className="psw"><a href="#">Forgot password?</a></span>
+    <span className="psw">Forgot <a href="#">password?</a></span>
     </div>
 </form>
-</>)
-}
-
-export default Login

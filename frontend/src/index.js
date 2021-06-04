@@ -1,13 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import SignUp from './user/SignUp'
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import reportWebVitals from './reportWebVitals'
+import UserList from './user/UserList'
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <SignUp/>
+    <UserList/>
   </React.StrictMode>,
   document.getElementById('root')
 );

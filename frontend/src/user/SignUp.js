@@ -3,8 +3,8 @@ import './SignUp.css'
 
 const SignUp = () => {
     return (<>
-    <form action="/action_page.php" style={{border:"1px solid #ccc"}}>
-  <div className="container">
+<form action="/action_page.php" style={{border:"1px solid #ccc"}}>
+    <div className="container">
     <h1>Sign Up</h1>
     <p>Please fill in this form to create an account.</p>
     <hr/>
